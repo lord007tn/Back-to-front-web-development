@@ -1,6 +1,6 @@
 # Back to Front web development tutorial
 
-This repository contain all files and source code of ([Sapious](https://www.youtube.com/channel/UCkNAROzX8VtFpUVmx4f5WvA))
+This repository contain all files and source code of ([Sapious](https://www.youtube.com/channel/UCkNAROzX8VtFpUVmx4f5WvA)) Back to Front web development tutorial
 
 ---
 ## Requirements
@@ -45,7 +45,3 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 ## Running the project
 
     $ npm start
-
-## Simple build for production
-
-    $ npm build
