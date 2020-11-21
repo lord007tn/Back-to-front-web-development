@@ -7,6 +7,6 @@ module.exports = async (req, res, next) => {
         req.verifiedUser = verified
         next()
     } catch (err) {
-        return res.status(401).json("access_denied")
+        return res.status(403).json("access_denied")
     }
 }

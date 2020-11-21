@@ -6,6 +6,6 @@ const UserSchema = new Schema({
     lastName: { type: String, maxlength: 64 },
     email: { type: String, unique: true, index: true },
     password: {type: String, maxlength: 1024}
-})
+}, {timestamps: true})
 
 module.exports = mongoose.model('User', UserSchema)
